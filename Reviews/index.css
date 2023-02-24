@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    background-color:whitesmoke;
+    width: 100%;
+}
+h1{
+    font-size: 3rem;
+}
+hr{
+    border-bottom: 5px solid hsl(205, 78%, 60%);
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.div{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 5%;
+}
+.div img{
+    border-radius: 50%;
+    position: relative;
+    padding-top: 10px;
+}
+.div h2{
+    margin-top: 5px;
+    font-size: 1.25rem;
+}
+.job{
+    color: hsl(205, 78%, 60%);
+    margin-bottom: 10px;
+}
+p{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+li{
+    list-style: none;
+    display: inline;
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+li button{
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+}
+.but{
+    margin-top: 10px;
+    width: 40%;
+    height: 5vh;
+    border: 3px solid hsl(205, 78%, 60%); 
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color:hsl(205, 78%, 60%) ;
+    margin-bottom: 10px;
+    background-color: white;
+    transition: all;
+    transition: 1s;
+}
+.but:hover{
+    background-color: aquamarine;
+}
+
