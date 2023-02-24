@@ -1,1 +1,2 @@
-# javascript-project
+# javascript-projects
+This project is a collection of JavaScript exercises and coding challenges aimed at improving my skills in the language. The exercises cover a range of topics, from basic syntax and data types to more advanced topics like asynchronous programming and functional programming. By working through these exercises, I hope to improve my understanding of JavaScript and become a better developer.
