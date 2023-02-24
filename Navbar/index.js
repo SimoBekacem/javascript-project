@@ -20,7 +20,6 @@ window.addEventListener('resize', function() {
     if (windowWidth < 740) {
       // Do something for mobile devices
       images.style.display="none";
-      li.style.display="c"
 
       console.log('Mobile mode');
     } else {
