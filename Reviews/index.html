@@ -10,21 +10,22 @@
 <body>
     <h1>Our Reviews</h1>
     <hr>
-    <div class="div">
+    <div id="body"><div class="div">
         <img style="border-radius: 0%;position: absolute;
         top: 20%;
         left: 40%;
         z-index: 1;" src="/javascript-project/Reviews/icon/PngItem_2150827.png" height="30px" width="30px">
-        <img style="position: relative;" src="/javascript-project/Reviews/images/person-1_rfzshl.jpg" width="150px" height="150px"><br>
-        <h2>Anna Johnson</h2>
+        <img id style="position: relative;" src="/javascript-project/Reviews/images/person-1_rfzshl.jpg" width="150px" height="150px"><br>
+        <h2 id="name">Anna Johnson</h2>
         <h2 class="job">WEB DESIGNER</h2>
-        <p>Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.
+        <p id="comment">Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.
         </p>
         <ul>
             <li><button onclick="move_left()">&lt;</button></li>
             <li><button onclick="move_right()">&gt;</button></li>
         </ul>
         <button class="but">Surprise Me</button>
-    </div>
+    </div></div>
+    <script src="/javascript-project/Reviews/index.js"></script>
 </body>
 </html>

@@ -22,4 +22,99 @@ let  personne4 = {
     job: "THE BOSS",
     comment: "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic."
 }
+let html = "";
 let list = [personne1,personne2,personne3,personne4];
+let i=0;
+let body = document.getElementById("body");
+
+function move_left(){ 
+    if(i===0){
+        html=`
+        <div class="div">
+        <img style="border-radius: 0%;position: absolute;
+        top: 20%;
+        left: 40%;
+        z-index: 1;" src="/javascript-project/Reviews/icon/PngItem_2150827.png" height="30px" width="30px">
+        <img id style="position: relative;" ${list[3].image} width="150px" height="150px"><br>
+        <h2 id="name">${list[3].name}</h2>
+        <h2 class="job">${list[3].job}</h2>
+        <p id="comment">${list[3].comment}
+        </p>
+        <ul>
+            <li><button onclick="move_left()">&lt;</button></li>
+            <li><button onclick="move_right()">&gt;</button></li>
+        </ul>
+        <button class="but">Surprise Me</button>
+    </div>
+    `
+    i=3;
+    }
+    else{
+        html=`
+        <div class="div">
+        <img style="border-radius: 0%;position: absolute;
+        top: 20%;
+        left: 40%;
+        z-index: 1;" src="/javascript-project/Reviews/icon/PngItem_2150827.png" height="30px" width="30px">
+        <img id style="position: relative;" ${list[i-1].image} width="150px" height="150px"><br>
+        <h2 id="name">${list[i-1].name}</h2>
+        <h2 class="job">${list[i-1].job}</h2>
+        <p id="comment">${list[i-1].comment}
+        </p>
+        <ul>
+            <li><button onclick="move_left()">&lt;</button></li>
+            <li><button onclick="move_right()">&gt;</button></li>
+        </ul>
+        <button class="but">Surprise Me</button>
+    </div>
+    `
+    i--;
+    }
+    body.innerHTML=html;
+}
+function move_right(){ 
+    if(i===3){
+        html=`
+        <div class="div">
+        <img style="border-radius: 0%;position: absolute;
+        top: 20%;
+        left: 40%;
+        z-index: 1;" src="/javascript-project/Reviews/icon/PngItem_2150827.png" height="30px" width="30px">
+        <img id style="position: relative;" ${list[0].image} width="150px" height="150px"><br>
+        <h2 id="name">${list[0].name}</h2>
+        <h2 class="job">${list[0].job}</h2>
+        <p id="comment">${list[0].comment}
+        </p>
+        <ul>
+            <li><button onclick="move_left()">&lt;</button></li>
+            <li><button onclick="move_right()">&gt;</button></li>
+        </ul>
+        <button class="but">Surprise Me</button>
+    </div>
+    `
+    i=0;
+    }
+    else{
+        html=`
+        <div class="div">
+        <img style="border-radius: 0%;position: absolute;
+        top: 20%;
+        left: 40%;
+        z-index: 1;" src="/javascript-project/Reviews/icon/PngItem_2150827.png" height="30px" width="30px">
+        <img id style="position: relative;" ${list[i+1].image} width="150px" height="150px"><br>
+        <h2 id="name">${list[i+1].name}</h2>
+        <h2 class="job">${list[i+1].job}</h2>
+        <p id="comment">${list[i+1].comment}
+        </p>
+        <ul>
+            <li><button onclick="move_left()">&lt;</button></li>
+            <li><button onclick="move_right()">&gt;</button></li>
+        </ul>
+        <button class="but">Surprise Me</button>
+    </div>
+    `
+    i++;
+    }
+    body.innerHTML=html;
+}
+
