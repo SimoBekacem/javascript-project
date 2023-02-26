@@ -19,13 +19,3 @@ close.addEventListener('click',function(){
     test = false
 })
 
-
-
-
-
-// const sidebar = document.querySelector('.sidebar');
-// const openSidebarButton = document.querySelector('.open-sidebar');
-
-// openSidebarButton.addEventListener('click', function() {
-//     sidebar.classList.toggle('open');
-// });
