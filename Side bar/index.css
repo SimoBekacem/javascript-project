@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.content{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    transition: 1s;
+
+}
+.content img:hover{
+    transform: rotateZ(90deg);
+}
+.sidebar{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    left: -100vh;
+    top: 0;
+    transition: left 0.5s ease-in-out ;
+}
+.sidebar{
+    
+}
+.sidebar h1{
+    font-size: 2.5rem;
+    text-shadow: 2px 1px 3px black;
+}
+.sidebar h1 span{
+    color: dodgerblue;
+    text-shadow: 2px 1px 3px dodgerblue;
+}
+.sidebar h2{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: red;
+    float: right;
+    margin-top: -44px;
+    padding-right: 10px;
+}
+.sidebar .text{
+    width: 100%;
+    font-size: 2rem;
+    margin-top: 60px;
+    padding-left: 10px;
+}
+.sidebar .text li {
+    margin-top: 20px;
+}
+.text a{
+    width: 100%;
+    font-size: 2rem;
+    text-decoration: none;
+    display: block;
+    padding-left: 10px;
+    transition: all;
+    transition: 0.5s;
+    padding: 10px;
+}
+.text a:hover{
+    background-color: silver;
+    padding-left: 50px;
+}
+.images{
+    transform: translateY(37vh);
+    margin-left: 90px;
+    position: fixed;
+}
+.images li{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sidebar {
+    position: fixed;
+    top: 0;
+    right: -290px;
+    width: 250px;
+    height: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    transition: right 1s ease-in-out;
+}
+  
+.sidebar.open {
+    right: 0;
+}
+  
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.sidebar li {
+    margin-bottom: 10px;
+}
+  
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+  
+.content {
+    padding: 20px;
+}
+  
+.open-sidebar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+} */
+  
