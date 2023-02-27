@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+.hr{
+    display: block;
+    margin-bottom: 100px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid dodgerblue;
+}
+.centaner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.q1 , .q2 , .q3{
+    background-color: white;
+    width: 80%;
+    margin-bottom: 40px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.q1 img , .q2 img , .q3 img{
+    float: right;
+    margin-top: -25px;
+    /* margin-top: -55px; */
+}
+.q1 h2 , .q2 h2 , .q3 h2{
+    font-size: 1.25rem;
+    
+}
+div p , hr{
+    display: none;
+}
+div hr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
