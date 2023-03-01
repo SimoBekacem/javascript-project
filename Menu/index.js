@@ -14,6 +14,9 @@ let item7 = document.querySelector(".item7")
 let item8 = document.querySelector(".item8")
 let item9 = document.querySelector(".item9")
 let item10 = document.querySelector(".item10")
+for(let i=0;i<10;i++){
+    `let item${i} = document.querySelector(".item${i}")`
+}
 function button1(){
     console.log("hello")
     contaner2.style.gridTemplateAreas =`
